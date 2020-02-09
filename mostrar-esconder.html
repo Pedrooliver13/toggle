@@ -1,0 +1,16 @@
+<article class="container recipe_section">
+        <div class="recipe_head">
+            <h1>Ingredientes</h1>
+            <button>Esconder</button>
+        </div>
+        <div class="container recipe_content active">
+            <ul>
+                {% for recipes in recipe.ingredients %}
+                    <li class="">{{ recipes }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+    </article>
+    
+    <script src="script.js"><script>
